@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>About Us - Future University</title>
+    <link rel="stylesheet" href="about.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <h1>Future University</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Programs</a></li>
+                <li><a href="#">Admissions</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- About Us Section -->
+    <section class="about">
+        <div class="container">
+            <h2>About Future University</h2>
+            <p>At Future University, we provide a world-class education that prepares students for tomorrow's challenges. Our innovative curriculum, cutting-edge research, and diverse campus environment ensure that our students are ready to make a positive impact in a global society.</p>
+            
+            <!-- Image Gallery -->
+            <div class="image-gallery">
+                <div class="image-item" onclick="openModal('img1')">
+                    <img src="D:\web dev\th (2).jpeg" alt="Campus Image 1">
+                </div>
+                <div class="image-item" onclick="openModal('img2')">
+                    <img src="D:\web dev\th (1).jpeg" alt="Campus Image 2">
+                </div>
+                <div class="image-item" onclick="openModal('img3')">
+                    <img src="D:\web dev\th.jpeg" alt="Campus Image 3">
+                </div>
+            </div>
+
+            <h3>Our Mission</h3>
+            <p>Our mission is to empower students with knowledge, critical thinking, and the skills required to thrive in a rapidly changing world. We foster an inclusive and supportive community of learners dedicated to lifelong learning and discovery.</p>
+
+            <h3>Our Vision</h3>
+            <p>We envision a future where our graduates are leaders, innovators, and changemakers in every field. We aim to be a globally recognized institution for research, academic excellence, and social impact.</p>
+        </div>
+    </section>
+
+    <!-- Modal for image viewing -->
+    <div id="imageModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+       
+    </div>
+</body>
+</html>
